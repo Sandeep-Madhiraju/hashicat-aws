@@ -129,7 +129,7 @@ resource "aws_instance" "hashicat" {
   tags = {
     Name = "${var.prefix}-hashicat-instance"
     User = "smadhiraju"
-    Purpose = "demo"
+    Purpose = "demo1"
     test = "yes"
   }
 }
